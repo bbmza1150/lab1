@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lab11050/nMyHomePage2.dart';
+import 'MyHomePage.dart';
 
 import 'MyHomePage.dart';
 
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Home2(),
+      home: MyHomePage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
